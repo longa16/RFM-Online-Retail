@@ -37,12 +37,12 @@ Transformation des données transactionnelles en une table unique par client ave
 
 L'analyse a permis d'isoler 3 segments de clients distincts ayant des comportements d'achat radicalement différents :
 
-| Segment (Cluster) | Profil | Caractéristiques Observées | Stratégie Marketing Recommandée |
+| Segment  | Profil | Caractéristiques Observées | Stratégie Marketing Recommandée |
 | :--- | :--- | :--- | :--- |
-| **Cluster 1** 🥇 | **Champions (VIPs)** | Récence très faible (actifs), Fréquence et Montant très élevés. | **Fidélisation & Exclusivité :** Ne pas offrir de réductions (ils achètent déjà). Proposer un programme VIP, des accès anticipés aux nouveaux produits. |
-| **Cluster 0** 🥈 | **Potentiels (Moyens)** | Achètent occasionnellement, panier moyen modéré. | **Développement (Upsell) :** Inciter à augmenter le panier moyen via des bundles ou la livraison offerte à partir d'un certain montant. |
-| **Cluster 2** 🥉 | **À Risque (Perdus)** | Récence très élevée (n'ont pas acheté depuis longtemps), faible valeur. | **Réactivation (Win-back) :** Campagne e-mail agressive "Vous nous manquez" avec code promo. Si pas de réponse, arrêter les frais marketing. |
+| **Cluster 1**  | **Champions (VIPs)** | Récence très faible (actifs), Fréquence et Montant très élevés. | **Fidélisation & Exclusivité :** Ne pas offrir de réductions (ils achètent déjà). Proposer un programme VIP, des accès anticipés aux nouveaux produits. |
+| **Cluster 0** | **Potentiels (Moyens)** | Achètent occasionnellement, panier moyen modéré. | **Développement (Upsell) :** Inciter à augmenter le panier moyen via des bundles ou la livraison offerte à partir d'un certain montant. |
+| **Cluster 2** | **À Risque (Perdus)** | Récence très élevée (n'ont pas acheté depuis longtemps), faible valeur. | **Réactivation (Win-back) :** Campagne e-mail agressive "Vous nous manquez" avec code promo. Si pas de réponse, arrêter les frais marketing. |
 
 
-## 🚀 Conclusion
+## Conclusion
 Ce projet démontre comment l'analyse de données permet de segmenter une base client hétérogène. L'application de ces stratégies permettrait à l'entreprise d'augmenter le ROI de ses campagnes marketing en adressant le bon message, au bon moment, au bon client.
