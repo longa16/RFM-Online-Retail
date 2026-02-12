@@ -4,8 +4,8 @@
 Dans le secteur du e-commerce, traiter tous les clients de la même manière est une stratégie inefficace et coûteuse. Ce projet vise à analyser les données transactionnelles d'une boutique en ligne pour **identifier des profils de clients distincts**.
 
 L'objectif est de passer d'une approche marketing "taille unique" (Mass Marketing) à une **stratégie ciblée** (Targeted Marketing) pour :
-1.  **Maximiser la valeur** des meilleurs clients (Rétention).
-2.  **Réactiver** les clients dormants (Win-back).
+1.  **Maximiser la valeur** des meilleurs clients.
+2.  **Réactiver** les clients dormants.
 3.  **Optimiser le budget** publicitaire en ne ciblant que les bons segments.
 
 ##  Stack Technique
@@ -18,19 +18,19 @@ L'objectif est de passer d'une approche marketing "taille unique" (Mass Marketin
 
 ### 1. Préparation des Données
 * Utilisation du dataset **Online Retail** (UCI Machine Learning Repository).
-* **Nettoyage critique :** Suppression des transactions annulées (quantités négatives) et des enregistrements sans identifiant client (`CustomerID`).
+* **Nettoyage critique :** Suppression des transactions annulées et des enregistrements sans identifiant client (`CustomerID`).
 * Création de la variable `TotalAmount` (Quantité * Prix Unitaire).
 
 ### 2. Feature Engineering (Analyse RFM)
 Transformation des données transactionnelles en une table unique par client avec trois indicateurs clés :
 * **Recency (R) :** Jours écoulés depuis le dernier achat.
 * **Frequency (F) :** Nombre total de transactions.
-* **Monetary (M) :** Montant total dépensé (Customer Lifetime Value - CLV).
+* **Monetary (M) :** Montant total dépensé.
 
 ### 3. Prétraitement et Modélisation
 * Traitement de l'asymétrie des données (Skewness) via une **transformation logarithmique**.
 * Standardisation des échelles avec **StandardScaler**.
-* Détermination du nombre optimal de clusters ($k=3$) via la **Méthode du Coude (Elbow Method)**.
+* Détermination du nombre optimal de clusters ($k=3$) via la **Méthode du Coude **.
 * Application de l'algorithme **K-Means**.
 
 ## Résultats & Analyse Marketing
